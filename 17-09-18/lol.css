@@ -12,20 +12,31 @@
     height: 270px;
     padding: 45px;
     text-align: center;
-    border-radius: 100px;
+
 }
 
 .icon {
     width: 32px;
     border: none;
     float: left;
+
 }
 
 .can {
     display: inline-block;
     border-radius: 13px;
     background: lightgray;
-    padding: 0px 10px;
+    padding: 1px 15px;
     text-align: center;
+    margin: 5px;
 }
 
+a:link {
+    color: black;
+    padding: 2px;
+}
+
+a:hover {
+    background: black;
+    color: lightgray;
+}
